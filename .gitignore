@@ -5,8 +5,7 @@
 /.pnp
 .pnp.js
 
-.eslintrc.js
-db.json
+/db.json
 
 
 # testing
