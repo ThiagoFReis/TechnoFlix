@@ -95,5 +95,4 @@ function CadastroCategoria() {
     </PageDefault>
   );
 }
-
 export default CadastroCategoria;
