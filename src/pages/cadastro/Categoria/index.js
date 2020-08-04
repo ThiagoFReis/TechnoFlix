@@ -18,7 +18,7 @@ function CadastroCategoria() {
 
   useEffect(() => {
     const URL_TOP = //window.location.hostname.includes('localhost')
- 'http://localhost:8080/categorias';
+    'http://localhost:8080/categorias';
     fetch(URL_TOP)
       .then(async (respostaDoServidor) => {
         const resposta = await respostaDoServidor.json();
@@ -95,5 +95,4 @@ function CadastroCategoria() {
     </PageDefault>
   );
 }
-
 export default CadastroCategoria;

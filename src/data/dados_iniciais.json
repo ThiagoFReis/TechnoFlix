@@ -1,185 +1,158 @@
 {
   "categorias": [
     {
+      "id": 1,
       "titulo": "Front End",
-      "link": "https://www.alura.com.br/formacao-front-end",
       "cor": "#6BD1FF",
       "link_extra": {
-        "text": "Formação de Front End na Alura",
+        "text": "",
         "url": "https://www.alura.com.br/cursos-online-front-end"
-      },
-      "videos": [
-        {
-          "titulo": "O que faz uma desenvolvedora front-end? #HipstersPontoTube",
-          "url": "https://www.youtube.com/watch?v=ZY3-MFxVdEw"
-        },
-        {
-          "titulo": "SEO com React",
-          "url": "https://www.youtube.com/watch?v=c8mVlakBESE"
-        },
-        {
-          "titulo": "Componentização com VanillaJS #AluraMais",
-          "url": "https://www.youtube.com/watch?v=LatCKpcOMak"
-        },
-        {
-          "titulo": "Pare de chutar e aprenda a display: inline #01",
-          "url": "https://www.youtube.com/watch?v=5PS6ku8NzIE"
-        },
-        {
-          "titulo": "Template String: Interpolando strings com JavaScript #AluraMais",
-          "url": "https://www.youtube.com/watch?v=ORI_HTXaIw0"
-        },
-        {
-          "titulo": "Qual é a melhor linguagem de programação? #HipstersPontoTube",
-          "url": "https://www.youtube.com/watch?v=Uh-GNH-t89w"
-        },
-        {
-          "titulo": "Novidades do Angular v9",
-          "url": "https://www.youtube.com/watch?v=34uHo7hFmG0"
-        },
-        {
-          "titulo": "Base para aprender os frameworks",
-          "url": "https://www.youtube.com/watch?v=QzDjdlF1BQI"
-        }        
-      ]
+      }
     },
     {
+      "id": 2,
       "titulo": "Back End",
       "cor": "#00C86F",
       "link_extra": {
-        "text": "Cursos de Back End na Alura",
+        "text": "",
         "url": "https://www.alura.com.br/cursos-online-programacao"
-      },
-      "videos": [
-        {
-          "titulo": "PERCURSO em NÍVEL em ÁRVORE BINÁRIA | Estruturas de Dados #14",
-          "url": "https://www.youtube.com/watch?v=UOK7nS2E9xM"
-        },
-        {
-          "titulo": "Coders4Tips - S01E04: GitHub CLI - Uma Nova Experiência no Github!",
-          "url": "https://www.youtube.com/watch?v=6o6-bKOZOEY"
-        },
-        {
-          "titulo": "Programei 4 robôs que criam vídeos para mim no YouTube",
-          "url": "https://www.youtube.com/watch?v=kjhu1LEmRpY"
-        },
-        {
-          "titulo": "API: Dicionário do Programador",
-          "url": "https://www.youtube.com/watch?v=vGuqKIRWosk"
-        }, 
-        {
-          "titulo": "Usando Git Direito",
-          "url": "https://www.youtube.com/watch?v=6OokP-NE49k"
-        }
-      ]
+      }
     },
     {
+      "id": 3,
       "titulo": "Data Science e Inteligência Artificial",
       "cor": "#9cd33b",
       "link_extra": {
-        "text": "Cursos de Data Science na Alura",
-        "url": "https://www.alura.com.br/formacao-data-science"
-      },
-      "videos": [
-        {
-          "titulo": "Teste de Turing",
-          "url": "https://www.youtube.com/watch?v=BaPGU4JWa34"
-        },
-        {
-          "titulo": "O que é Data Science?",
-          "url": "https://www.youtube.com/watch?v=5b9Z8toVaAU&t=9s"
-        },
-        {
-          "titulo": "Melhor forma de aprender Python",
-          "url": "https://www.youtube.com/watch?v=Gojqw9BQ5qY"
-        },
-        {
-          "titulo": "Como ingressar no mercado de Data Science?",
-          "url": "https://www.youtube.com/watch?v=gxyjGmOV540"
-        }
-      ]
+        "text": "",
+        "url": "https://www.alura.com.br/cursos-online-mobile"
+      }
     },
     {
+      "id": 4,
       "titulo": "Filmes",
-      "cor": "orange",
-      "videos": [
-        {
-          "titulo": "Interestellar",
-          "url": "https://www.youtube.com/watch?v=frD_IiY_A3E"
-        },
-        {
-          "titulo": "Gattaca",
-          "url": "https://www.youtube.com/watch?v=Dl0tYLbrhhs"
-        },
-        {
-          "titulo": "A Chegada",
-          "url": "https://www.youtube.com/watch?v=rNciXGzYZms"
-        },
-        {
-          "titulo": "Feitiço do Tempo",
-          "url": "https://www.youtube.com/watch?v=zi8d69P9NvI"
-        }
-      ]
+      "cor": "orange"
+    }
+  ],
+  "videos": [
+    {
+      "id": 12,
+      "categoriaId": 2,
+      "titulo": "",
+      "url": "https://www.youtube.com/watch?v=6OokP-NE49k"
     },
     {
-      "titulo": "Games",
-      "cor": "red",
-      "link_extra": {
-        "text": "Formação de Jogos na Alura",
-        "url": "https://www.alura.com.br/formacao-jogos-unity"
-      },
-      "videos": [
-        {
-          "titulo": "Final Fantasy 7",
-          "url": "https://www.youtube.com/watch?v=I_ATSCTnUD8"
-        },
-        {
-          "titulo": "Assassins Creed Valhalla",
-          "url": "https://www.youtube.com/watch?v=KDfdjB9uL0U"
-        },
-        {
-          "titulo": "God of War 4",
-          "url": "https://www.youtube.com/watch?v=FyIwEFXOcaE"
-        },
-        {
-          "titulo": "Resident Evil 8",
-          "url": "https://www.youtube.com/watch?v=JSapXD9vxYA"
-        },
-        {
-          "titulo": "Pokémon Let's Go Pikachu/Eevee",
-          "url": "https://www.youtube.com/watch?v=L56q_k2ydrs"
-        }
-      ]
+      "id": 13,
+      "categoriaId": 3,
+      "titulo": "",
+      "url": "https://www.youtube.com/watch?v=BaPGU4JWa34"
     },
     {
-      "titulo": "Aprendendo a aprender tecnologia",
-      "cor": "#6b5be2",
-      "link_extra": {
-        "text": "Curso sobre aprendizado na Alura",
-        "url": "https://alura.com.br/curso-online-aprender-a-aprender-tecnicas-para-seu-autodesenvolvimento"
-      },
-      "videos": [
-        {
-          "titulo": "Como estudar melhor?",
-          "url": "https://www.youtube.com/watch?v=Is6c9KSGCbk&feature=youtu.be"
-        },
-        {
-          "titulo": "Faculdade",
-          "url": "https://www.youtube.com/watch?v=jw06H8esyzQ&feature=youtu.be"
-        },
-        {
-          "titulo": "Frameworks",
-          "url": "https://www.youtube.com/watch?v=QzDjdlF1BQI"
-        },
-        {
-          "titulo": "A mágica do Aprendizado",
-          "url": "https://www.youtube.com/watch?v=oTEXzpfEpPY"
-        },
-        {
-          "titulo": "Como aprender a programar?",
-          "url": "https://www.youtube.com/watch?v=MwCx2qKdbDw&feature=youtu.be"
-        }
-      ]
+      "titulo": "A história do Front-End para iniciantes em Programação",
+      "url": "https://www.youtube.com/watch?v=VKmPGmFY7H4",
+      "categoriaId": 1,
+      "id": 22
+    },
+    {
+      "titulo": "Crie Ambientes Front-End em Minutos",
+      "url": "https://www.youtube.com/watch?v=LT-iNSrGoP8",
+      "categoriaId": 1,
+      "id": 23
+    },
+    {
+      "titulo": "O que estudar para conseguir um emprego com front-end",
+      "url": "https://www.youtube.com/watch?v=HxVGCjTtzOQ",
+      "categoriaId": 1,
+      "id": 24
+    },
+    {
+      "titulo": "TODO desenvolvedor FRONTEND deveria saber disso! Importante 🔴",
+      "url": "https://www.youtube.com/watch?v=oGy1qDSfjXo",
+      "categoriaId": 1,
+      "id": 25
+    },
+    {
+      "titulo": "Programei em React JS o Frontend do AirCnC (usando React Hooks como useEffect e useMemo)",
+      "url": "https://www.youtube.com/watch?v=Gmiz-j_K340",
+      "categoriaId": 1,
+      "id": 26
+    },
+    {
+      "titulo": "Cypress (O Teste Front-End Mais Fácil que Você vai Ver) // Dicionário do Programador",
+      "url": "https://www.youtube.com/watch?v=ipE9bsfYEog",
+      "categoriaId": 1,
+      "id": 27
+    },
+    {
+      "titulo": "As Skills de um Desenvolvedor Front-End // Vlog #70",
+      "url": "https://www.youtube.com/watch?v=TWy2rxyZLrE&t=310s",
+      "categoriaId": 1,
+      "id": 28
+    },
+    {
+      "titulo": "Seja um Programador Back-End de Sucesso (dicas que gostaríamos ter recebido) // Vlog #98",
+      "url": "https://www.youtube.com/watch?v=TJ90DZjYdWI&t=436s",
+      "categoriaId": 2,
+      "id": 29
+    },
+    {
+      "titulo": "Entendendo Back-End para Iniciantes em Programação (Parte 1) | Série \"Começando aos 40\"",
+      "url": "https://www.youtube.com/watch?v=Qjk-cSW-jk4",
+      "categoriaId": 2,
+      "id": 30
+    },
+    {
+      "titulo": "Criando o Backend com #NodeJS e #MySQL | Documentador com #ReactJS e #NodeJS - Parte 03 | ptbr",
+      "url": "https://www.youtube.com/watch?v=WjLZR_VI_ek",
+      "categoriaId": 2,
+      "id": 31
+    },
+    {
+      "titulo": "MongoDB - Alura Live #30",
+      "url": "https://www.youtube.com/watch?v=SYxTDEh1Ef0",
+      "categoriaId": 2,
+      "id": 32
+    },
+    {
+      "titulo": "PHP vale a pena? (minha opinião sincera)",
+      "url": "https://www.youtube.com/watch?v=H43fXodv6WY",
+      "categoriaId": 2,
+      "id": 33
+    },
+    {
+      "titulo": "Qual a diferença entre Inteligência Artificial, Machine Learning, Data Science, Deep Learning, etc?",
+      "url": "https://www.youtube.com/watch?v=ccZ2pyr3YDw",
+      "categoriaId": 3,
+      "id": 34
+    },
+    {
+      "titulo": "As TOP 5 Linguagens para INTELIGÊNCIA ARTIFICIAL e MACHINE LEARNING (2019) // Vlog #97",
+      "url": "https://www.youtube.com/watch?v=wD5lpZI6jeY",
+      "categoriaId": 3,
+      "id": 35
+    },
+    {
+      "titulo": "O que é Data Science? #HipstersPontoTube",
+      "url": "https://www.youtube.com/watch?v=5b9Z8toVaAU",
+      "categoriaId": 3,
+      "id": 36
+    },
+    {
+      "titulo": "Data Visualization: crie os melhores gráficos para os seus dados",
+      "url": "https://www.youtube.com/watch?v=qLiEDvs57nk",
+      "categoriaId": 3,
+      "id": 37
+    },
+    {
+      "titulo": "Como se Tornar um Cientista de Dados de Sucesso // Vlog #105",
+      "url": "https://www.youtube.com/watch?v=-vawLSNdo-A",
+      "categoriaId": 3,
+      "id": 38
+    },
+    {
+      "titulo": "Steve Jobs - O Filme",
+      "url": "https://www.youtube.com/watch?v=Dgk6ExjjXOs",
+      "categoriaId": 4,
+      "id": 39
     }
   ]
 }
